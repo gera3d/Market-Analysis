@@ -110,9 +110,7 @@ The explainer video production industry plays a pivotal role in modern marketing
 | video marketing tools       | 590           | LOW         | 11.48   | [720, 720, 480, 590, 480, 590, 590, 590, 720, 720, 720, 880] |
 | explainer video examples    | 590           | LOW         | 7.39    | [590, 880, 720, 590, 480, 590, 720, 590, 480, 590, 590, 720] |
 | corporate animation videos  | 390           | LOW         | 25.72   | [480, 390, 390, 320, 480, 390, 480, 390, 320, 320, 260, 320] |
-| video animation services    | 880           | LOW         | 12.69   | [1000, 880, 880, 1000, 720, 720, 880,
-
- 880, 720, 720, 720, 880] |
+| video animation services    | 880           | LOW         | 12.69   | [1000, 880, 880, 1000, 720, 720, 880, 880, 720, 720, 720, 880] |
 | educational explainer videos | 50          | LOW         | 7.84    | [70, 50, 70, 40, 30, 30, 40, 30, 30, 40, 50, 90]      |
 | product demo videos         | 320           | LOW         | 18.03   | [260, 260, 210, 260, 210, 210, 320, 260, 260, 320, 480, 480] |
 | whiteboard animation videos | 720           | MEDIUM      | 6.23    | [720, 720, 720, 590, 720, 880, 720, 720, 720, 880, 590, 720] |
