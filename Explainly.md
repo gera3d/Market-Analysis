@@ -1,4 +1,4 @@
-# 📊 Market Analysis Report for Explainer Video Production 📊
+# 📊 Market Analysis Report for Explainly 📊
 
 ## 1. Introduction
 The explainer video production industry plays a pivotal role in modern marketing strategies. With businesses increasingly leveraging visual content to engage audiences and convey complex messages, the demand for high-quality explainer videos has surged. This report delves into competitor analysis, persona creation, keyword generation, and a SWOT analysis to provide a comprehensive overview of the market landscape.
