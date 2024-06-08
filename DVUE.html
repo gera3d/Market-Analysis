@@ -5,14 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Market Analysis Report for DVUE</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+    <style>
+        body {
+            background: linear-gradient(135deg, #1f1f2e 0%, #2c2c48 100%);
+            color: #f3f4f6;
+        }
+        .hex-bg {
+            background: url('hex-bg.png') no-repeat center center fixed;
+            background-size: cover;
+        }
+        .logo {
+            width: 50px;
+            height: 50px;
+        }
+    </style>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.28.0/feather.min.js"></script>
 </head>
-<body class="bg-gray-50 text-gray-900 font-sans">
+<body class="font-sans antialiased hex-bg">
 
     <!-- Header -->
-    <header class="bg-gradient-to-r from-blue-600 to-purple-600 text-white py-8">
+    <header class="text-white py-8">
         <div class="container mx-auto px-4 flex items-center justify-between">
-            <h1 class="text-4xl font-extrabold mr-2">Market Analysis Report for DVUE</h1>
+            <div class="flex items-center">
+                <img src="logo.png" alt="DVUE Logo" class="logo mr-4">
+                <h1 class="text-4xl font-extrabold">Market Analysis Report for DVUE</h1>
+            </div>
             <span class="text-4xl"><i data-feather="bar-chart-2"></i></span>
         </div>
     </header>
@@ -20,13 +37,13 @@
     <!-- Key Elements Section -->
     <section class="container mx-auto px-4 py-8">
         <h2 class="text-3xl font-semibold mb-4">📊 Key Elements</h2>
-        <div class="bg-white p-6 rounded-lg shadow mb-6">
+        <div class="bg-gray-800 p-6 rounded-lg shadow mb-6">
             <h3 class="text-2xl font-bold mb-2">Market Size:</h3>
-            <p class="mb-4">The global influencer market is valued at approximately <strong>$500 billion</strong> and is rapidly growing. Social commerce, in particular, is projected to increase from <strong>$492 billion in 2021 to $1.2 trillion by 2025</strong>. This growth underscores the significant opportunity for platforms like DVUE to capture a substantial share of the market by providing innovative solutions for content monetization and intellectual property protection <a href="#" class="text-blue-500"> </a>.</p>
+            <p class="mb-4">The global influencer market is valued at approximately <strong>$500 billion</strong> and is rapidly growing. Social commerce, in particular, is projected to increase from <strong>$492 billion in 2021 to $1.2 trillion by 2025</strong>. This growth underscores the significant opportunity for platforms like DVUE to capture a substantial share of the market by providing innovative solutions for content monetization and intellectual property protection <a href="#" class="text-blue-400"> </a>.</p>
         </div>
-        <div class="bg-white p-6 rounded-lg shadow">
+        <div class="bg-gray-800 p-6 rounded-lg shadow">
             <h3 class="text-2xl font-bold mb-2">Revenue Opportunity:</h3>
-            <p class="mb-4">DVUE projects to generate significant revenue through various streams, including subscription services, premium content access, NFT sales, advertising revenue, and brand partnerships. With a user growth target from <strong>250,000 to 25 million</strong> in the first year, the projected revenue is approximately <strong>$703.125 million</strong> over 12 months. This revenue model emphasizes direct fan engagement, secure content sharing, and advanced monetization strategies tailored for influencers, celebrities, and content creators <a href="#" class="text-blue-500"> </a>.</p>
+            <p class="mb-4">DVUE projects to generate significant revenue through various streams, including subscription services, premium content access, NFT sales, advertising revenue, and brand partnerships. With a user growth target from <strong>250,000 to 25 million</strong> in the first year, the projected revenue is approximately <strong>$703.125 million</strong> over 12 months. This revenue model emphasizes direct fan engagement, secure content sharing, and advanced monetization strategies tailored for influencers, celebrities, and content creators <a href="#" class="text-blue-400"> </a>.</p>
         </div>
     </section>
 
@@ -37,7 +54,7 @@
     </section>
 
     <!-- Competitor Analysis Section -->
-    <section class="container mx-auto px-4 py-8 bg-white rounded-lg shadow">
+    <section class="container mx-auto px-4 py-8 bg-gray-800 rounded-lg shadow">
         <h2 class="text-3xl font-semibold mb-4 flex items-center"><span class="mr-2">2. Competitor Analysis</span> <i data-feather="users"></i></h2>
         <p class="mb-4">Key competitors in the market include Instagram, Patreon, OnlyFans, Twitch, and TikTok. Each platform has established itself with unique features catering to content creation, engagement, and monetization.</p>
         <div class="mb-4">
@@ -74,17 +91,17 @@
     <!-- Devil's Advocate Perspective Section -->
     <section class="container mx-auto px-4 py-8">
         <h2 class="text-3xl font-semibold mb-4 flex items-center"><span class="mr-2">⚖️ Devil's Advocate Perspective</span> <i data-feather="zap"></i></h2>
-        <div class="bg-white p-6 rounded-lg shadow mb-6">
+        <div class="bg-gray-800 p-6 rounded-lg shadow mb-6">
             <h3 class="text-2xl font-bold mb-2">Market Size</h3>
             <p class="mb-4"><strong>Claim:</strong> The global influencer market is valued at approximately $500 billion and is rapidly growing. Social commerce is projected to increase from $492 billion in 2021 to $1.2 trillion by 2025.</p>
             <p class="mb-4"><strong>Counterpoints:</strong> These projections assume continuous growth without significant disruption. Factors like economic downturns, changes in consumer behavior, or new regulations could slow this growth. The market is highly fragmented, making it difficult for new entrants like DVUE to capture a significant share.</p>
         </div>
-        <div class="bg-white p-6 rounded-lg shadow mb-6">
+        <div class="bg-gray-800 p-6 rounded-lg shadow mb-6">
             <h3 class="text-2xl font-bold mb-2">Revenue Opportunity</h3>
             <p class="mb-4"><strong>Claim:</strong> DVUE projects to generate approximately $703.125 million over 12 months through various revenue streams.</p>
             <p class="mb-4"><strong>Counterpoints:</strong> The projection assumes rapid user growth from 250,000 to 25 million within a year, which is ambitious. Achieving these numbers could be challenging, especially when competing against established platforms. Revenue also depends on high conversion rates for subscription services and premium content, which may not materialize as expected.</p>
         </div>
-        <div class="bg-white p-6 rounded-lg shadow mb-6">
+        <div class="bg-gray-800 p-6 rounded-lg shadow mb-6">
             <h3 class="text-2xl font-bold mb-2">Competitor Analysis</h3>
             <div class="mb-4">
                 <h4 class="text-xl font-semibold mb-2">Strengths of DVUE:</h4>
@@ -102,7 +119,7 @@
     <!-- Persona Creation Section -->
     <section class="container mx-auto px-4 py-8">
         <h2 class="text-3xl font-semibold mb-4 flex items-center"><span class="mr-2">3. Persona Creation</span> <i data-feather="user"></i></h2>
-        <div class="bg-white rounded-lg shadow p-6">
+        <div class="bg-gray-800 rounded-lg shadow p-6">
             <h3 class="text-2xl font-bold mb-2">Persona Details:</h3>
             <ul class="list-disc list-inside pl-6 mb-4">
                 <li><strong>Industry:</strong> Social Media and Content Monetization</li>
@@ -129,9 +146,9 @@
     <section class="container mx-auto px-4 py-8">
         <h2 class="text-3xl font-semibold mb-4 flex items-center"><span class="mr-2">4. Keyword Generation</span> <i data-feather="search"></i></h2>
         <div class="overflow-x-auto mb-6">
-            <table class="table-auto w-full bg-white rounded-lg shadow">
+            <table class="table-auto w-full bg-gray-800 rounded-lg shadow">
                 <thead>
-                    <tr class="bg-gray-200 text-left">
+                    <tr class="bg-gray-900 text-left">
                         <th class="px-4 py-2">Keyword</th>
                         <th class="px-4 py-2">Search Volume</th>
                         <th class="px-4 py-2">Competition</th>
@@ -141,7 +158,7 @@
                     </tr>
                 </thead>
                 <tbody>
-                    <tr class="hover:bg-gray-100">
+                    <tr class="hover:bg-gray-700">
                         <td class="border px-4 py-2">intellectual property protection</td>
                         <td class="border px-4 py-2">4400</td>
                         <td class="border px-4 py-2">LOW</td>
@@ -149,7 +166,7 @@
                         <td class="border px-4 py-2">$1.41</td>
                         <td class="border px-4 py-2">$7.92</td>
                     </tr>
-                    <tr class="hover:bg-gray-100">
+                    <tr class="hover:bg-gray-700">
                         <td class="border px-4 py-2">influencer marketing tools</td>
                         <td class="border px-4 py-2">1600</td>
                         <td class="border px-4 py-2">MEDIUM</td>
@@ -157,7 +174,7 @@
                         <td class="border px-4 py-2">$0.45</td>
                         <td class="border px-4 py-2">$10.44</td>
                     </tr>
-                    <tr class="hover:bg-gray-100">
+                    <tr class="hover:bg-gray-700">
                         <td class="border px-4 py-2">decentralized social media</td>
                         <td class="border px-4 py-2">1600</td>
                         <td class="border px-4 py-2">LOW</td>
@@ -170,7 +187,7 @@
             </table>
         </div>
         <h3 class="text-2xl font-semibold mb-4 flex items-center"><span class="mr-2">Additional Keywords:</span> <i data-feather="list"></i></h3>
-        <ul class="list-disc list-inside bg-white rounded-lg shadow p-6">
+        <ul class="list-disc list-inside bg-gray-800 rounded-lg shadow p-6">
             <li>social media monetization strategies</li>
             <li>content monetization platforms</li>
             <li>blockchain for content creators</li>
@@ -186,7 +203,7 @@
     </section>
 
     <!-- SWOT Analysis Section -->
-    <section class="container mx-auto px-4 py-8 bg-white rounded-lg shadow">
+    <section class="container mx-auto px-4 py-8 bg-gray-800 rounded-lg shadow">
         <h2 class="text-3xl font-semibold mb-4 flex items-center"><span class="mr-2">SWOT Analysis</span> <i data-feather="pie-chart"></i></h2>
         <div class="mb-4">
             <h3 class="text-2xl font-semibold mb-2 flex items-center"><span class="mr-2">1. Strengths:</span> <i data-feather="thumbs-up"></i></h3>
