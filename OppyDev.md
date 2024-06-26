@@ -1,4 +1,4 @@
-```markdown
+
 # Market Analysis Report for AI-driven Coding Assistants and Developer Tools
 
 ## 1. Introduction
@@ -110,4 +110,3 @@ This report identifies key competitors in the AI-driven coding assistant market 
 - Customer skepticism regarding AI reliability.
 
 This comprehensive analysis provides a balanced perspective on the current state and potential strategies for success in the AI-driven coding assistant market.
-```
